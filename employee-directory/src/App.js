@@ -1,11 +1,15 @@
-import './App.css';
-import Header from './components/Header'
-import UserSection from './components/UserSection';
+import React, {useState, useEffect, Component} from "react";
+import Header from './components/Header/Header'
+import UserSection from './components/UserSection/UserSection';
+import SearchBar from './components/SearchBar/SearchBar'
+// import people from "./directory.json";
+// import API from ("./utils/API");
 
 function App() {
   return (
     <div className="container">
       <Header />
+      <SearchBar />
       <UserSection />
     </div>
   );
