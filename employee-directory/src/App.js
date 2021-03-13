@@ -1,9 +1,9 @@
 import React, {useState, useEffect, Component} from "react";
 import Header from './components/Header/Header'
 import UserSection from './components/UserSection/UserSection';
-import SearchBar from './components/SearchBar/SearchBar'
+import SearchBar from './components/SearchBar/SearchBar';
+import EmployeeList from "./components/utils/EmplopyeeList";
 // import people from "./directory.json";
-// import API from ("./utils/API");
 
 function App() {
   return (
